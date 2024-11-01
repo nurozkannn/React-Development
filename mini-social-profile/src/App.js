@@ -19,7 +19,7 @@ const InitialFriends = [
 
 export default function App() {
   const [userProfile, setUserProfile] = useState(InitialProfile);
-  const [friends, setFriends] = useState(InitialFriends);
+  const [friends, setFriends] = useState([]);
   const [isEditing, setIsEditing] = useState(false);
 
   function handleEditProfile() {
